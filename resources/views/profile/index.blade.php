@@ -28,5 +28,7 @@
         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
             @csrf
         </form>
+        
     </div>
-@endsection
+    <img src="{{ asset('https://png.pngtree.com/png-clipart/20210912/original/pngtree-greetings-welcome-newcomers-welcome-home-png-image_6749023.jpg') }}" alt="Photo 2" style="width: 800px; height: auto;">
+    @endsection
